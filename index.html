@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bookie A BookSHop</title>
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-wEmeIV1mKuiNpC+IOBjI7aAzPcEZeedi5yW5f2yOq55WWLwNGmvvx4Um1vskeMj0" crossorigin="anonymous">
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-p34f1UUtsS3wqzfto5wAAmdvj+osOnFyQFpp4Ua3gs/ZVWx6oOypYoCJhGGScy+8"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- header  -->
+
+    <div class="container-fluid header">
+        <div class="header-h3">
+            <h3> Bookie a BookShop</h3>
+        </div>
+        <h6 style="margin-left: auto;">FREE SHIPMENT FOR THE ORDERS ABOVE RS 500</h6>
+
+    </div>
+
+    <!-- navbar  -->
+
+    <div class="container-fluid">
+        <nav class="mynav navbar navbar-expand-lg">
+            <div class="container-fluid">
+                <button class="navbar-toggler-icon" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navul navbar-nav me-auto mb-lg-0">
+                        <li class="navli nav-item">
+                            <a href="#">Home</a>
+                            <div>
+                                <ul class="inner-list">
+                                    <li style="padding-left: 10%;">MAIN MENU</li>
+                                    <li>BEST SELLING AUTHOR</li>
+                                    <li>CHILDREN'S BOOK</li>
+                                    <li>SCI-FI BOOKS</li>
+                                    <li>CRIME THRILLERS</li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li class="navli nav-item">
+                            <a href="#">Pages</a>
+                            <div>
+                                <ul class="inner-list">
+                                    <li>ABOUT US</li>
+                                    <li>OUR PRIMESES</li>
+                                    <li>OUR EVENTS</li>
+                                    <li>CONTACT US</li>
+                                    <li>FAQ PAGE</li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li class="navli  nav-item"><a href="#">Events</a>
+                            <div>
+                                <ul class="inner-list">
+                                    <li>EVENT DATES</li>
+                                    <li>EVENT LINKS</li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li class="navli nav-item"><a href="#">Login</a>
+                            <div>
+                                <ul class="inner-list">
+                                    <li class="nav-a"><a href="#" style="font: 400 normal 11px san-serif;">REGISTER</a></li>
+                                    <li class="nav-a"><a href="login-customer.html" style="font: 400 normal 11px san-serif;">LOGIN</a></li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li class="navli nav-item"><a href="#">Admin</a>
+                            <div>
+                                <ul class="inner-list">
+                                    <li class="nav-a"><a href="login-admin.html" style="font: 400 normal 11px san-serif;">LOGIN</a></li>
+                                </ul>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </div>
+    
+
+   
+
+
+
+    <!-- caurosal  -->
+    
+
+    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+        
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+                aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner carousel-height">
+            <div class="carousel-item active">
+                <img src="images/01.jpg" class="d-block w-100" alt="">
+            </div>
+            <div class="carousel-item">
+                <img src="images/02.jpg" class="d-block w-100" alt="">
+            </div>
+            <div class="carousel-item">
+                <img src="images/03.jpg" class="d-block w-100" alt="">
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+
+
+    <!-- main  -->
+
+    <div class="container-fluid " style="margin-top: 5rem;">
+        <div class="container main-button">
+            <button class="button-active">All</button>
+            <button>Best Sellers</button>
+            <button>Fantasy</button>
+            <button>History</button>
+            <button>Art</button>
+            <button>Love</button>
+        </div>
+
+
+        <div class="container-fluid main-books mt-5">
+            <div class="main-book book1">
+                <div class="books-hover">
+                    <div class="read"><button class="btn-left">READ ME</button></div>
+                </div>
+                <div class="description">
+                    <h6>JESSICA JHONSON</h6>
+                    <p>Symphony Of Triology</p>
+                </div>
+            </div>
+            <div class="main-book book2">
+                <div class="books-hover">
+                    <div class="read"><button class="btn-left">READ ME</button></div>
+                </div>
+                <div class="description">
+                    <h6>JAMES HOPMAN</h6>
+                    <p>Amster Hamster Trip</p>
+                </div>
+            </div>
+            <div class="main-book book3">
+                <div class="books-hover">
+                    <div class="read"><button class="btn-left">READ ME</button></div>
+                </div>
+                <div class="description">
+                    <h6>JHON STRAUSS</h6>
+                    <p>Modeling</p>
+                </div>
+            </div>
+            <div class="main-book book4">
+                <div class="books-hover">
+                    <div class="read"><button class="btn-left">READ ME</button></div>
+                </div>
+                <div class="description">
+                    <h6>ADAM STRASS</h6>
+                    <p>Fashion On Street</p>
+                </div>
+            </div>
+            <div class="main-book book5">
+                <div class="books-hover">
+                    <div class="read"><button class="btn-left">READ ME</button></div>
+                </div>
+                <div class="description">
+                    <h6>MARK JOSE</h6>
+                    <p>Learn To Love Yourself</p>
+                </div>
+            </div>
+        </div>
+        <!-- 2nd main  -->
+        <div class="container-fluid main-books main2 ">
+            <div class="main-book book6">
+                <div class="books-hover">
+                    <div class="read"><button class="btn-left">READ ME</button></div>
+                </div>
+                <div class="description">
+                    <h6>JESSICA JHONSON</h6>
+                    <p>Easy Fast Cooking</p>
+                </div>
+            </div>
+            <div class="main-book book7">
+                <div class="books-hover">
+                    <div class="read"><button class="btn-left">READ ME</button></div>
+                </div>
+                <div class="description">
+                    <h6>JAMES HOPMAN</h6>
+                    <p>Fantasy Story Teller</p>
+                </div>
+            </div>
+            <div class="main-book book8">
+                <div class="books-hover">
+                    <div class="read"><button class="btn-left">READ ME</button></div>
+                </div>
+                <div class="description">
+                    <h6>JHON STRAUSS</h6>
+                    <p>Renaincsse History</p>
+                </div>
+            </div>
+            <div class="main-book book9">
+                <div class="books-hover">
+                    <div class="read"><button class="btn-left">READ ME</button></div>
+                </div>
+                <div class="description">
+                    <h6>ADAM STRASS</h6>
+                    <p>Wellness And Paradise</p>
+                </div>
+            </div>
+            <div class="main-book book10">
+                <div class="books-hover">
+                    <div class="read"><button class="btn-left">READ ME</button></div>
+                </div>
+                <div class="description">
+                    <h6>MARK JOSE</h6>
+                    <p>Japan Travel Stories`</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Featured Book -->
+
+    <div class="container-fluid mt-5" style="background-color: #edf3f4;">
+        <div class="container featured">
+            <div class="f-data">
+                <h6 class="mt-5">Featured Book</h6>
+                <h4>The Complete Idiot Guide <br> to Grapic Design</h4>
+                <i>Anggi Krisna</i>
+                <p class="mt-2">From advanced selectors to generated content to web fonts, and from gradients, shadows, and rounded corners to elegant animations, CSS3 hold a universe of creative possibilities. No one can better guide you through these galaxies than Dan Cederholm.</p>
+
+                <button>Get This Book</button>
+            </div>
+            <div class="f-img1"></div>
+            <div class="f-img2"></div>
+        </div>
+    </div>
+
+
+    <!-- Our Blog -->
+
+    <div class="container-fluid" style="margin-top: 80px;">
+        <h2 class="feat-head">From Our Blog</h2>
+        <div class="container ourblog mt-5">
+            <div>
+                <h3>Hello world!</h3>
+                <span>MAY 10,2021</span>
+                <p>Welcome to TokoPress Demo Sites. This is your first post. Edit or delete it, then start writing!</p>
+            </div>
+            <div>
+                <img src="images/blog1.jpg">
+                <h3>Blogging And How You Can...</h3>
+                <span>JAN 1,2021</span>
+                <p>Whether you’re just looking to type about a hobby you have or if you want to attempt to run a business,…</p>
+            </div>
+            <div>
+                <img src="images/blog2.jpg">
+                <h3>Building A Bright Future...</h3>
+                <span>FEB 28,2021</span>
+                <p>Most blogs are focused on one issue. Whether you want to create a blog dedicated to your passion, or you simply…</p>
+            </div>
+            <div>
+                <img src="images/blog3.jpg">
+                <h3>Everything You Need To Kn...</h3>
+                <span>FEB 28,2021</span>
+                <p>People communicate differently than they used to thanks to technology that didn’t exist before. Blogging is hot right now, and this…</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer  -->
+    <div class="container-fluid footer-body mt-5 pb-5">
+        <div class="row footer pt-5">
+            <div class="offset-md-1 col-md-3">
+                <ul>
+                    <h4>Publishers</h4>
+                    <li class="mt-4"><a href="#">Bestsellers</a></li>
+                    <li><a href="#">Interviews</a></li>
+                    <li><a href="#">Author's Story</a></li>
+                    <li><a href="#">Book Fair</a></li>
+                    <li><a href="#">Help(FAQ)</a></li>
+                </ul>
+            </div>
+            <div class="col-md-3">
+                <h4>Contact</h4>
+                <p class="mt-4">Stay in touch with everything ChapterOne,<br> follow us on social media and learn <br>
+                    about new promotions.</p>
+            </div>
+            <div class="col-md-3">
+                <h4>News & Update</h4>
+                <p class="mt-4">We’d love it if you subscribed to our <br> newsletter! You’ll love it too.</p>
+                <input type="email" class="email-footer" placeholder="Email..">
+            </div>
+            <div class="col-md-2 login">
+                <h4 class="social">LogIn for Employees</h4>
+                <a href="login.html"><button>LogIn</button></a>
+                <a href="#"><button>SignIn</button></a>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
